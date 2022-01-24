@@ -1,0 +1,136 @@
+:: StoryTitle
+Fates Pivot v0.1
+
+:: StoryData
+{
+ "ifid": "49A8452D-4790-4047-ACE3-7F5FD37FD8EF",
+ "format": "Entweedle",
+ "format-version": "1.1.1",
+ "startnode": "1",
+ "zoom": "1",
+ "start": "Intro"
+}
+
+:: UserScript [script]
+
+
+:: UserStylesheet [stylesheet]
+
+
+:: Intro [START] {"position":"390,112","size":"100,100"}
+"Mirai or Fates" our number is fixed at three.
+This is our will and so mote it be.
+Clothos, Lachesis and Atropos are our names...
+and you are responsible for your claims.
+Some people describe us as ugly, old and lame,
+while they forget that we own their fate.
+
+[[Next soul please->Person1]]
+
+:: Person1 [Character1] {"position":"532,115","size":"100,100"}
+So you want to learn about my past?
+Well, this is escalating fast!
+I betrayed them all the other day.
+It was all about the money… now go away!
+
+[[Cut the string->Person1A]]
+[[Spare his life->Person1B]]
+
+:: Game Over [END] {"position":"1364,745","size":"100,100"}
+GAME OVER
+
+Credits
+
+:: Person1B [Character1 Wrong] {"position":"666,207","size":"100,100"}
+Zeus is not satisfied.You are on his bad side?
+
+[[Next soul please->Person2]] 
+
+:: Person1A [Character1 Correct] {"position":"675,16","size":"100,100"}
+Zeus is happy with your decision. You clearly had a vision!
+
+[[Next soul please->Person2]] 
+
+:: Person2 [Character2] {"position":"805,110","size":"100,100"}
+What am i doing with my life!?
+I'm trying to avoid family strife!
+My husband wronged me once or twice.
+I kissed his cousin for the spice!
+Gods know... and I have paid the price. 
+
+[[Cut the string->Person2A]]
+[[Spare her life->Person2B]]
+
+:: Person2A [Character2 Wrong] {"position":"950,19","size":"100,100"}
+Zeus is not satisfied.You are on his bad side?
+
+[[Next soul please->Person3]] 
+
+:: Person2B [Character2 Correct] {"position":"950,211","size":"100,100"}
+Zeus is happy with your decision. You clearly had a vision!
+
+[[Next soul please->Person3]] 
+
+:: Person3 [Character3] {"position":"1083,114","size":"100,100"}
+The man shrugs and takes a step back.
+Then he remembers that he forgot to eat his snack!
+I have killed many men.
+They must be more than ten!
+I don’t know what to feel…
+I can’t crush them with my heel.
+They told me I was almost… immortal.
+Do I really have to go through this portal?
+
+[[Cut the string->Person3A]]
+[[Spare his life->Person3B]]
+
+:: Person3A [Character3 Correct] {"position":"1226,22","size":"100,100"}
+Zeus is happy with your decision. You clearly had a vision!
+
+[[Next soul please->Person4]] 
+
+:: Person3B [Character3 Wrong] {"position":"1213,213","size":"100,100"}
+Zeus is not satisfied.You are on his bad side?
+
+[[Next soul please->Person4]] 
+
+:: Person4 [Character4] {"position":"1368,124","size":"100,100"}
+I, for my thoughtless, careless sakes...
+I regret all my mistakes.
+I killed my kids and my heart breaks...
+Hera is behind all this!
+She took a part of me that I really miss.
+
+[[Cut the string->Person4A]]
+[[Spare his life->Person4B]]
+
+:: Person4A [Character4 Wrong] {"position":"1335,272","size":"100,100"}
+Zeus is not satisfied.You are on his bad side?
+
+[[Next soul please->Person5]] 
+
+:: Person4B [Character4 Correct] {"position":"1444,273","size":"100,100"}
+Zeus is happy with your decision. You clearly had a vision!
+
+[[Next soul please->Person5]] 
+
+:: Person5 [Character5] {"position":"1362,419","size":"100,100"}
+Everyone says that it’s all my fault!
+I threw mankind in the vault!
+They said “Hey girl! Don’t open the box!”
+But…it didn’t have any locks! 
+I was curious, I confess!
+I shouldn’t have done it…I guess.
+
+[[Cut the string->Person5A]]
+[[Spare her life->Person5B]]
+
+:: Person5A [Character5 Correct] {"position":"1284,569","size":"100,100"}
+Zeus is happy with your decision. You clearly had a vision!
+
+[[Final tally->Game Over]] 
+
+:: Person5B [Character5 Wrong] {"position":"1440,569","size":"100,100"}
+Zeus is not satisfied.You are on his bad side?
+
+[[Final tally->Game Over]] 
